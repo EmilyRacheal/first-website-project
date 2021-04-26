@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* =====Styling the navbar===== */
+
+.nav-link{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.mycolor{
+    background-color: #ffc288;
+}
+.navbar-nav .nav-link:hover{
+    color: #ff6701 !important;
+}
+
+.nav-blog{
+    font-size: 40px;
+}
+
+.blog{
+    color: #ff6701
+}
+
+.d-flex button{
+    background-color: #ff6701;
+    border: #ff6701;
+    color: #fff;
+    padding: 10px 20px;
+
+}
+.d-flex button:hover{
+    background-color: #fcecdd;
+    color: #ff6701;
+}
+
+/* ====styling for carousel-body==== */
+ .carousel-inner{
+    height: 90vh !important;
+    overflow: hidden;
+} 
+
+/* .carousel{
+    height: 39vh!important;
+} */
+
+.text-style{
+    padding-bottom: 377px !important;
+    color: #000;
+}
+
+.text-style h1{
+    font-size: 50px;
+}
+
+.text-style p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.text-style a{
+    background-color: #ff6701;
+    color: #fcecdd;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.add-opacity{
+    opacity: 0.7;
+}
+
+/* =====focus-text-styling */
+/* .focus-text h1{
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 50px;
+} */
