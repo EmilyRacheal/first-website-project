@@ -42,10 +42,20 @@ body{
 }
 
 /* ====styling for carousel-body==== */
- .carousel-inner{
-    height: 90vh !important;
+.carousel-item{
+    /*height: 80vh !important;*/
     overflow: hidden;
 } 
+
+.carousel-item img{
+    height: 90vh;
+    width: 100vw;
+}
+
+.car {
+    position: relative;
+    bottom: 140px;
+}
 
 /* .carousel{
     height: 39vh!important;
