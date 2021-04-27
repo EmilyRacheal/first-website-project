@@ -43,7 +43,6 @@ body{
 
 /* ====styling for carousel-body==== */
 .carousel-item{
-    /*height: 80vh !important;*/
     overflow: hidden;
 } 
 
@@ -57,40 +56,76 @@ body{
     bottom: 140px;
 }
 
-/* .carousel{
-    height: 39vh!important;
-} */
-
-.text-style{
-    padding-bottom: 377px !important;
-    color: #000;
-}
-
-.text-style h1{
+.car h1{
     font-size: 50px;
 }
 
-.text-style p{
+.car p{
     font-size: 20px;
     margin-bottom: 40px;
 }
 
-.text-style a{
+.car a{
     background-color: #ff6701;
     color: #fcecdd;
     padding: 10px 35px;
     border-radius: 5px;
     font-size: 20px;
+    text-decoration: none;
+    /* text-shadow: #887467; */
 
+}
+
+.car a:hover{
+    background-color: #fcecdd;
+    color: #ff6701;
+    transition: 1s;
 }
 
 .add-opacity{
     opacity: 0.7;
 }
 
-/* =====focus-text-styling */
-/* .focus-text h1{
-    margin-top: 35px;
-    font-weight: bold;
-    font-size: 50px;
-} */
+.myMW-700{
+    max-width: 700px;
+}
+
+.bg-cl{
+    background-color: #ff6701;
+    color: #fcecdd;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.bg-cl:hover{
+    background-color: #fcecdd;
+    color: #ff6701;
+    transition: 1s;
+}
+
+#motivation{
+    /* background-color: #202340; */
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./../img/d.jpg) no-repeat no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    /* padding: 50px 0; */
+    color: #ffffff;
+}
+
+.btn-cl{
+    background-color: #fcecdd;
+    color: #ff6701;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn-cl:hover{
+    background-color: #ff6701;
+    color: #fcecdd;
+    transition: 1s;
+}
