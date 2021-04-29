@@ -179,3 +179,24 @@ section#donationBanner >h1{
     font-size: 60px;
     color: #ffc288;
 }
+
+/* ====styling for the contact page */
+section#needHelpBanner > p {
+    font-style: italic;
+    color: #ffc288;
+}
+
+section#needHelpBanner{
+    background: url(./../img/r.jpg) no-repeat center;
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20vh 0 0 0;
+    opacity: 0.7;
+}
+
+section#needHelpBanner >h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffc288;
+}

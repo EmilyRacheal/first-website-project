@@ -47,38 +47,47 @@
         </div>
       </nav>
 
-      <section id="aboutUsBanner" class="text-center text-white mb-5 shadow-lg">
+      <section id="needHelpBanner" class="text-center text-white mb-5 shadow-lg">
         <h1>
-            <span class="fa fa-play"></span>
-            Video Gallery
+            Contact Us
         </h1>
+        <p class="container">   
+		Our doors are always open. we are  eager to hear from you and  assist in whichever way we can.
+        </p>
       </section>
 
-      <section id="programs" class="pt-5">
-        <div class="container">
-            <div class="row"> 
-                <div class="col-md-4 mb-4">
-                    <iframe src="https://www.youtube.com/embed/OXa5Irwb0ik" style="min-width: 100%; max-width: 560px; height:315px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <iframe src="https://www.youtube.com/embed/OXa5Irwb0ik" style="min-width: 100%; max-width: 560px; height:315px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <iframe src="https://www.youtube.com/embed/OXa5Irwb0ik" style="min-width: 100%; max-width: 560px; height:315px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+      <section class="container py-5 mb-5">
+        <form id="contact" class="col-md-6 offset-md-3" method="POST">
+            <div class="pb-3">
+                <input type="text" class="form-control form-control-lg" name="name" placeholder="Enter Your Full Name">
             </div>
-            <div class="row"> 
-                <div class="col-md-4 mb-4">
-                    <iframe src="https://www.youtube.com/embed/OXa5Irwb0ik" style="min-width: 100%; max-width: 560px; height:315px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <iframe src="https://www.youtube.com/embed/OXa5Irwb0ik" style="min-width: 100%; max-width: 560px; height:315px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <iframe src="https://www.youtube.com/embed/OXa5Irwb0ik" style="min-width: 100%; max-width: 560px; height:315px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+            <div class="pb-3">
+                <input type="text" class="form-control form-control-lg" name="email" placeholder="Enter Your Email">
             </div>
-        </div>
+            <div class="pb-3">
+                <input type="text" class="form-control form-control-lg" name="phone" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="pb-3">
+                <input type="text" class="form-control form-control-lg" name="city" placeholder="Enter Your city">
+            </div>
+            <select name="subject" class="form-control form-control-lg mb-3" id="">
+                <option selected>Subject</option>
+                <option value="Inquiry">Inquiry</option>
+                <option value="Partnership">Partnership</option>
+                <option value="Complaint">Complaint</option>
+                <option value="Official">Official</option>
+            </select>
+            <div class="form-group pb-3">
+                <textarea name="reason" placeholder="Comment" id="" cols="30" rows="10" class="form-control form-control-lg"></textarea>
+            </div>
+            <div id="registerResponse">
+
+            </div>
+            <button class="btn btn-block btn-lg btn-cl mbg-color2 bold float-right">
+                Send
+            </button>
+            
+        </form>
       </section>
 
       <footer>
