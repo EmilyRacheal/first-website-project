@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ress/css/bootstrap.css">
+    <link rel="stylesheet" href="ress/css/style.css">
+    <link rel="stylesheet" href="ress/css/animate.css" />
+    <link rel="stylesheet" href="ress/css/responsive.css">
+    <link rel="stylesheet" href="ress/fontawe/fontawesome-free-5.15.2-web/css/all.css">
+    <title>About</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-lg ">
+        <div class="container ">
+          <a class="navbar-brand nav-blog " href="#">Emily's <span class="blog">Blog</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll nav-head" style="max-height: 100px;">
+              <li class="nav-item active px-2">
+                <a class="nav-link" href="test.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="video.html">video Reasources</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="donations.html">Make Donations</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#"> Contact Us</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#">Volunteer</a>
+              </li>
+            </ul>
+            <form class="d-flex">   
+              <button class="btn btn-outline-success btn-submit " type="submit">Get Help</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section id="donationBanner" class="text-center text-white mb-5 shadow-lg">
+        <h1>
+            Donate = Alleviate
+        </h1>
+        <p class="container">
+            The donations you make to FODAIN are used to assist people
+            with mental health challenges to foot their medical and therapy bills.
+        </p>
+      </section>
+
+      <section class="container py-5">
+        <div class="row">
+            <div class="col-md-6 offset-3">
+                <div class=" text-center">
+                    <div class="alert alert-info">
+                        Also, your kind contribution helps our volunteers 
+                        to go to different educational institutions and 
+                        enlighten the young ones on emotional intelligence 
+                        and mental health. Assist us to make more impact in 
+                        the community. You are making the right decision.
+                    </div>
+                </div>
+                <form id="makeDonation" method="POST">
+                    <div class="pb-3">
+                        <input type="text" class="form-control form-control-lg" name="name" placeholder="Enter Your Full Name">
+                    </div>
+                    <div class="pb-3">
+                        <input type="text" class="form-control form-control-lg" name="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="pb-3">
+                        <input type="text" class="form-control form-control-lg" name="phone" placeholder="Enter Your Phone Number">
+                    </div>
+                    <div class="pb-3">
+                        <input type="text" class="form-control form-control-lg" name="city" placeholder="Enter Your city">
+                    </div>
+                    <div class="form-group pb-3">
+                        <textarea name="reason" placeholder="Reason For Donation" id="" cols="30" rows="10" class="form-control form-control-lg"></textarea>
+                    </div>
+                    <div id="registerResponse">
+
+                    </div>
+                    <button class="btn btn-block btn-lg btn-cl mbg-color2 bold float-right">
+                        Send
+                    </button>
+                    
+                </form>
+            </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-6">
+                  <h2 class="mb-3">Fodain</h2>
+                  <p>
+                    FODAIN is poised at drawing more attention on the 
+                    issue of mental health and changing the narrative 
+                    and orientation that has ravaged the African 
+                    continent on suicide, depression and mental health.
+                </p>
+                </div>
+                <div class="col-md-4 offset-md-1">
+                  <h2 class="mb-3">Contact Us</h2>
+                  <div class="pb-4">
+                    <span class="fa fa-home"></span>
+                    <span class="text"> 7 Factory Road Aba, Abia State</span>
+                  </div>
+                  <div class="pb-4">
+                    <span class="fa fa-phone"></span>
+                    <span class="text">+2347086292088</span>
+                  </div>
+                  <div class="pb-4">
+                    <span class="fa fa-envelope"></span>
+                    <span class="text">help@fodain.org.ng</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
