@@ -200,3 +200,19 @@ section#needHelpBanner >h1{
     font-size: 60px;
     color: #ffc288;
 }
+
+/* ===styling for volunteer====*/
+section.volunteer>header{
+    background: url(./../img/r.jpg) no-repeat center;
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20vh 0 0 0;
+    opacity: 0.7;
+}
+
+section.volunteer>header>h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffc288;
+}
