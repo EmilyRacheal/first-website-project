@@ -6,34 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ress/css/bootstrap.css">
     <link rel="stylesheet" href="ress/css/style.css">
+    <link rel="stylesheet" href="ress/css/animate.css" />
+    <link rel="stylesheet" href="ress/css/responsive.css">
+    <link rel="stylesheet" href="ress/fontawe/fontawesome-free-5.15.2-web/css/all.css">
     <title>BoostrapDesign</title>
+   
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-lg ">
         <div class="container ">
-          <a class="navbar-brand nav-blog " href="#">Emily's <span class="blog">Blog</span></a>
+          <a class="navbar-brand nav-blog " href="index.html">Emily's <span class="blog">Blog</span></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll nav-head" style="max-height: 100px;">
               <li class="nav-item active px-2">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link" href="#">video Reasources</a>
+                <a class="nav-link" href="video.html">video Reasources</a>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link" href="#">Make Donations</a>
+                <a class="nav-link" href="donations.html">Make Donations</a>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link" href="#"> Contact Us</a>
+                <a class="nav-link" href="contact.html"> Contact Us</a>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link" href="#">Volunteer</a>
+                <a class="nav-link" href="volunteer.html">Volunteer</a>
               </li>
             </ul>
             <form class="d-flex">   
@@ -42,97 +47,311 @@
           </div>
         </div>
       </nav>
-    
-      <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner carousel-inner">
-          <div class="carousel-item active">
-            <img src="ress/img/a.jpg" class="d-block w-100 mh-100" alt="...">x
-          </div>
-          <div class="carousel-item">
-            <img src="ress/img/b.jpg" class="d-block w-100 mh-100" alt="...">
-            <div class="carousel-caption text-right">
-              <h1>Get help you need</h1>
-                <p class="container">Connect with a resposive networks of mental professionals and consultants.</p>
-                <a href="#" class="btn btn-getstarted mt-3">Get Help</a>
+
+
+<!-- =======carousel section===== -->
+      <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./ress/img/c.jpg" class="img-fluid add-opacity" alt="Slider image" >
+              <div class="carousel-caption">
+                <div class="text-right car">
+                  <h1 class="animate__animated animate__bounce">When depression calls...</h1>
+                  <p class="animate__animated animate__bounce">
+                     Join the real journey to mental health and awareness today. 
+                  </p>
+                  <a href="#">Get Help</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./ress/img/c.jpg" class="img-fluid add-opacity" alt="Slider image">
+              <div class="carousel-caption">
+                <div class="text-right car">
+                  <h1 class="">When depression calls...</h1>
+                  <p class="animate__fadeInLeft">
+                     Join the real journey to mental health and awareness today. 
+                  </p>
+                  <a href="#" class="animate__animated animate__fadeInLeft">Get Help</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./ress/img/c.jpg" class="img-fluid add-opacity" alt="Slider image">
+              <div class="carousel-caption">
+                <div class="text-right car">
+                  <h1 class="animate__animated animate__bounce">When depression calls...</h1>
+                  <p class="animate__animated animate__bounce">
+                     Join the real journey to mental health and awareness today. 
+                  </p>
+                  <a href="#" class="animate__animated animate__shakeY">Get Help</a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="ress/img/f.jpg" class="d-block w-100 mh-100" alt="...">
-          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div> -->
+      </section>
 
 
-
-      
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="ress/img/c.jpg" class="mh-100 w-100 add-opacity" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="text-right text-style">
-                <h1>Get The Help You Need.</h1>
-                <p>Connect with a responsive network of mental professionals and consultants.</p>
-                <button class="btn btn-outline-success btn-submit " type="submit">Get Help</button>
-              </div>
-              
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="ress/img/c.jpg" class="mh-100 w-100 add-opacity" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="text-right text-style">
-                <h1>Get The Help You Need.</h1>
-                <p>Connect with a responsive network of mental professionals and consultants.</p>
-                <button class="btn btn-outline-success btn-submit " type="submit">Get Help</button>
-              </div>
-              
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="ress/img/f.jpg" class="mh-100 w-100 add-opacity" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="text-right text-style">
-                <h1>Get The Help You Need.</h1>
-                <p>Connect with a responsive network of mental professionals and consultants.</p>
-                <button class="btn btn-outline-success btn-submit " type="submit">Get Help</button>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-      <div class="container">
-        <div class="focus-text">
-          <h1 class="text-shadow-bold wow fadeInUp text-center" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Our Focus</h1>
+<!-- ======section for the the three rows======= -->
+      <div class="container py-5">
+        <div class="">
+          <h1 class="text-shadow-bold wow fadeInUp text-center animate__animated animate__bounce" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Our Focus</h1>
           <hr style="width: 20%; border: 3px solid #212529; border-radius: 50px;">
+          <p class="myMW-700 text-center m-auto">Every Life Counts. You are our core responsibility as an organization. FODAIN is poised at drawing more attention on the issue of mental health and changing the narartive and orientation that has
+             ar vaged the African continent on suicide, depression and mental health.
+            </p>
         </div>
-    
+          <div class="row text-center pt-3 pb-5  animate__animated animate__wobble">
+            <div class="col-md-4 py-5 shadow wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+              <div class="facts-img ">
+                <img src="ress/img/fe.jpg" alt="" class="img-fluid rounded-circle animate__animated animate__backInUp">
+              </div>
+              <div class="pt-3 px-4">
+                <h3>Subscribe</h3>
+                <p>Learn more about mental health and get every support you need.</p>
+              </div>
+              <div>
+                <a href="" class="btn bg-cl mbg-color2 bold">Get Help</a>
+              </div>
+            </div>
+            <div class="col-md-4 py-5 shadow wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+              <div class="facts-img">
+                <img src="ress/img/c.jpg" alt="" class="img-fluid rounded-circle animate__animated animate__backInUp" >
+              </div>
+              <div class="pt-3 px-4">
+                <h3>Stay Connected</h3>
+                <p>Get in touch with meantal professional around you.</p>
+              </div>
+              <div>
+                <a href="" class="btn bg-cl mbg-color2 bold">Meet a Mentor</a>
+              </div>
+            </div>
+            <div class="col-md-4 py-5 shadow wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+              <div class="facts-img">
+                <img src="ress/img/f.jpg" alt="" class="img-fluid rounded-circle animate__animated animate__backInUp">
+              </div>
+              <div class="pt-3 px-4">
+                <h3>Volunteer</h3>
+                <p>Join our network of volunteers and share your story.</p>
+              </div>
+              <div>
+                <a href="" class="btn bg-cl mbg-color2 bold">Become a Volunteer</a>
+              </div>
+            </div>
+          </div>
       </div>
-        
 
+<!-- =====section for the video====== -->
+      <section id="motivation" class="py-5 ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="text-white mb-5">It's Not Yet Over For You. </h2>
+            </div>
+            <div class="col-md-8 offset-md-2 mb-4 ">
+              <iframe src="https://www.youtube.com/embed/ga-MniJxQz8" frameborder="0" style="min-width: 100%; max-width: 560px; height:315px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            <div class="col-md-12 text-center">
+              <a href="#" class="btn btn-cl btn-getstarted"> Book for Counselling </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======styling for our service===== -->
+        <section id="programs" class=" pt-5">
+          <div class="container ">
+            <div class="caption">
+              <h1 class="text-center text-shadow-bold">Subscribe To Our Service</h1>
+              <hr style="width: 20%; border: 3px solid #212529; border-radius: 50px;">
+            </div>
+            <div class="col-md-10 offset-md-1 py-5">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="ress/img/e.jpg" class="img-fluid border"alt="">
+                </div>
+                <div class="col-md-7">
+                  <h4>Educational Instution</h4>
+                  <p class="tex-justify">
+                    Educational institutions across the globe are one of the worst hits
+                    when it comes to breakdown in mental health. This is proved right by
+                    the rising cases of students who due to one reason or another take
+                    their own life in school. The need to take mental awareness in 
+                    schools has indeed taken too long a time.
+                  </p>
+                  <p class="text-right">
+                    <a href="" class="btn bg-cl mbg-color2 bold">Book A Session</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-11">
+                <hr>
+              </div>
+              <div class="row mt-5">
+                <div class="col-md-4 d-md-none">
+                  <img src="ress/img/r.jpg" class="img-fluid border" alt="">
+                </div>
+                <div class="col-md-7">
+                  <h4>Organizations & Businesses</h4>
+                  <p class="text-justify">
+                    Many firm and business are beginning to see the need to
+                    ten their work force on mental stability to help increase 
+                    productivity. This is why we are working with organization 
+                    to hold engaging sessions on mental awareness and the need 
+                    to be aware.
+                  </p>
+                  <p>
+                    <a href="" class="btn bg-cl mbg-color2 bold">Book A Session</a>
+                  </p>
+                </div>
+                <div class="col-md-4 d-none d-md-block">
+                  <img src="ress/img/g.jpg" class="img-fluid border" alt="">
+                </div>
+              </div>
+              <div class="col-md-11">
+                <hr>
+              </div>
+              <div class="row mt-5">
+                <div class="col-md-4">
+                  <img src="ress/img/k.jpg" class="img-fluid border" alt="">
+                </div>
+                <div class="col-md-7">
+                  <h4>Government Parastatals</h4>
+                  <p class="text-justify">
+                    Even government agencies are not left out. This is
+                     because we believe that mental awareness is indeed 
+                     everyone’s business. Including government agencies.
+                  </p>
+                  <p class="text-right">
+                    <a href="" class="btn bg-cl mbg-color2 bold">Book A Session</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="testimony" class="pt-5">
+          <div class="p-4">
+            <h1 class="text-center text-white">Meet The Overcomers</h1>
+            <hr style="width: 20%; border: 3px solid #eeeff4; border-radius: 50px;">
+          </div>
+          <div class="container">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class></li>
+                <li data-target="#demo" data-slide-to="1" class></li>
+                <li data-target="#demo" data-slide-to="2" class="active"></li>
+              </ul>
+              <!--===== slideshows==== -->
+              <div class="carousel-inner">
+                <div class="carousel-item w-100 text-white text-center p-4">
+                  <blockquote class="poca-blockquote d-flex">
+                    <div class="icon">
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                      <h5 style="line-height: 35px;">   
+                        It started with me having this numbing feeling. 
+                        Then it spread to general fatigue and this sense of
+                        nothingness. I knew I wasn’t my normal self, 
+                        but then it seemed as if there was nothing I 
+                        could do about it. I’m glad I made it through 
+                        those dark and cold days. I’m eternally 
+                        grateful to still be here and share my story.
+                    </h5>
+                    <h6 class="pt-5"> Emmanuella, student.</h6>
+                    </div>
+                  </blockquote>
+                </div>
+                <div class="carousel-item w-100 text-white text-center p-4 active carousel-item-left">
+                  <blockquote class="poca-blockquote d-flex">
+                    <div class="icon">
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                      <h5 style="line-height: 35px;">
+                        Most people that have not undergone spasms of depression will never
+                         understand what it actually feels. You feel angry at everything and 
+                         nothing at the same time. It’s more like a collision of feelings,
+                          and you just want it to go away. 
+                        You want it to just stop.  Words can never capture that feeling.
+                      </h5>
+                      <h6 class="pt-5"> Johnson, Digital marketer.</h6>
+                    </div>
+                  </blockquote>
+                </div>
+                  <div class="carousel-item w-100 text-white text-center p-4 active">
+                    <blockquote class="poca-blockquote d-flex">
+                      <div class="icon">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </div>
+                      <div>
+                        <h5 style="line-height: 35px;">
+                          Sometimes, what people need is someone that can consciously reach 
+                          out to them and stick with them intentional; No judgment or push 
+                          for quick recovery. Yes, therapy and medication cannot be ruled out.
+                           But then, human 
+                          interaction and genuine acts of kindness can never be over emphasized.
+                        </h5>
+                        <h6 class="pt-5">Goodness, Fashion Designer.</h6>
+                      </div>
+                    </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2 class="mb-3">Fodain</h2>
+                    <p>
+                      FODAIN is poised at drawing more attention on the 
+                      issue of mental health and changing the narrative 
+                      and orientation that has ravaged the African 
+                      continent on suicide, depression and mental health.
+                  </p>
+                  </div>
+                  <div class="col-md-4 offset-md-1">
+                    <h2 class="mb-3">Contact Us</h2>
+                    <div class="pb-4">
+                      <span class="fa fa-home"></span>
+                      <span class="text"> 7 Factory Road Aba, Abia State</span>
+                    </div>
+                    <div class="pb-4">
+                      <span class="fa fa-phone"></span>
+                      <span class="text">+2347086292088</span>
+                    </div>
+                    <div class="pb-4">
+                      <span class="fa fa-envelope"></span>
+                      <span class="text">help@fodain.org.ng</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
 
 
 
@@ -145,7 +364,7 @@
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript --> 
+<!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <script src="ress/js/script.js"></script>
