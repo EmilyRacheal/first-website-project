@@ -58,11 +58,17 @@ body{
 
 .car h1{
     font-size: 50px;
+    color: #ff6701;
 }
 
 .car p{
     font-size: 20px;
     margin-bottom: 40px;
+    text-shadow: 1px 2px 2px #ff6701;
+}
+
+.mycol{
+    color: #000 !important;
 }
 
 .car a{
@@ -182,13 +188,15 @@ section#donationBanner{
 section#donationBanner >h1{
     font-weight: bold;
     font-size: 60px;
-    color: #ffc288;
+    color: #ff6701;
 }
 
 /* ====styling for the contact page */
 section#needHelpBanner > p {
     font-style: italic;
-    color: #ffc288;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-shadow: 1px 2px 2px #ff6701;
 }
 
 section#needHelpBanner{
@@ -203,7 +211,7 @@ section#needHelpBanner{
 section#needHelpBanner >h1{
     font-weight: bold;
     font-size: 60px;
-    color: #ffc288;
+    color: #ff6701;
 }
 
 /* ===styling for volunteer====*/
@@ -219,5 +227,5 @@ section.volunteer>header{
 section.volunteer>header>h1{
     font-weight: bold;
     font-size: 60px;
-    color: #ffc288;
+    color: #ff6701;
 }
