@@ -82,9 +82,9 @@ body{
     transition: 1s;
 }
 
-.add-opacity{
+/* .add-opacity{
     opacity: 0.7;
-}
+} */
 
 .myMW-700{
     max-width: 700px;
